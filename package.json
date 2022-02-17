@@ -1,7 +1,9 @@
 {
   "scripts": {
     "start": "gitbook serve ./content",
-    "build": "gitbook build ./content ./docs"
+    "build": "gitbook build ./content ./docs",
+    "publish": "git push origin main",
+    "release": "npm run build & npm run publish"
   },
   "dependencies": {
     "gitbook-summary": "^1.2.4"
