@@ -1,11 +1,13 @@
 {
   "scripts": {
+    "install": "gitbook install",
     "start": "gitbook serve ./content",
     "build": "gitbook build ./content ./docs",
     "publish": "git push origin main",
     "release": "npm run build & npm run publish"
   },
   "dependencies": {
+    "gitbook-cli": "^2.3.2",
     "gitbook-summary": "^1.2.4"
   }
 }
