@@ -1,6 +1,18 @@
 {
     "plugins": [
-        "katex"
+        "katex",
+        "back-to-top-button",
+        "tbfed-pagefooter"
     ],
-    "language": "ZN-ch"
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy lixinger 2022",
+            "modify_label": "本书发布时间",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "theme-default": {
+            "showLevel": true
+        }
+    },
+    "language": "zh-hans"
 }

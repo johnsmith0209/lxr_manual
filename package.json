@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "sm": "book sm",
-    "build": "npm run sm && gitbook build ./content ./docs"
+    "start": "gitbook serve ./content",
+    "build": "gitbook build ./content ./docs"
   },
   "dependencies": {
     "gitbook-summary": "^1.2.4"
