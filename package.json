@@ -3,7 +3,7 @@
     "install": "gitbook install",
     "start": "gitbook serve ./content",
     "build": "gitbook build ./content ./docs",
-    "publish": "git push origin main",
+    "publish": "git commit -am'new content' && git push origin main",
     "release": "npm run build & npm run publish"
   },
   "dependencies": {
