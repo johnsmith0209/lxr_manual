@@ -8,6 +8,10 @@
   },
   "dependencies": {
     "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-katex": "^1.1.4",
+    "gitbook-plugin-popup": "0.0.1",
+    "gitbook-plugin-tbfed-pagefooter": "0.0.1",
     "gitbook-summary": "^1.2.4"
   }
 }

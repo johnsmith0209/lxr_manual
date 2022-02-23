@@ -2,7 +2,8 @@
     "plugins": [
         "katex",
         "back-to-top-button",
-        "tbfed-pagefooter"
+        "tbfed-pagefooter",
+        "popup"
     ],
     "pluginsConfig": {
         "tbfed-pagefooter": {
